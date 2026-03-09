@@ -2,6 +2,8 @@
 
 A command-line interface for the [Mollie](https://www.mollie.com/) payment platform, aimed at developers building and debugging Mollie integrations. Wraps the full Mollie REST API so you can create, inspect, and manage payment resources without writing throwaway scripts or crafting raw HTTP requests.
 
+⚠️ This is not an official Mollie tool. Use at your own risk. ⚠️
+
 ## Installation
 
 You'll need a somewhat current instance of `go`. Download or clone the repository, then build and put the binary somewhere in your `$PATH`, e.g.:
