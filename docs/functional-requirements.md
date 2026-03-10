@@ -335,6 +335,7 @@ The following areas are identified for future exploration and will be scoped in 
 - **Diff / watch mode** — `mollie payments watch <id>` polls and displays live status changes for a payment, useful during integration testing.
 - **Import / seed commands** — Bulk-create test data (customers, payments) from a JSON or YAML seed file, enabling repeatable test environments.
 - **OpenTelemetry tracing** — Optional structured trace output for debugging latency in API calls.
+- **Replay mode** - Pipe or open a file containing JSON and use it as the base for a Mollie API call
 
 ---
 
